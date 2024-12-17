@@ -4,18 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eject": "react-scripts eject"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.2.1",
+    "@mui/material": "^6.2.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.2.1",
     "axios": "^1.7.9",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^7.0.2",
     "react-scripts": "^5.0.1"
   },
   "browserslist": {
