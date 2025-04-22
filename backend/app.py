@@ -14,10 +14,10 @@ app.config['JWT_SECRET_KEY'] = 'your_secret_key_here'  # Change to a strong secr
 jwt = JWTManager(app)
 
 # MySQL configuration
-MYSQL_HOST = 'localhost'
-MYSQL_USER = 'root'
-MYSQL_PASSWORD = 'testServer'
-MYSQL_DB = 'flask_app'
+MYSQL_HOST = ''
+MYSQL_USER = ''
+MYSQL_PASSWORD = ''
+MYSQL_DB = ''
 
 # Database connection function
 def get_db_connection():
